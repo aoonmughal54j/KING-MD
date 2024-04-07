@@ -10,23 +10,23 @@ global.email = 'textnow1pak@gmail.com'
 global.github = 'https://github.com/naveeddogar/KING-MD'
 global.location = 'pakistan'
 global.gurl = 'https://instagram.com/naveeddogar_' // add your username
-global.sudo = process.env.SUDO || '923115425068'
-global.devs = '923115425068';
+global.sudo = process.env.SUDO || '923465125306'
+global.devs = '923465125306';
 global.website = 'https://github.com/naveeddogar/KING-MD' // Hello world
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/0102e91af561f16f180ad.jpg
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/0a0e86caf13af914ad176.jpg
 module.exports = {
-  botname:   process.env.BOT_NAME === undefined ? '✦𝘘 ꪊ ꫀ ꫀ ᭢ -ᗩ ᑎ ᗩ Y ᗩ ✦ : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? '✦𝘘 ꪊ ꫀ ꫀ ᭢ -ᗩ ᑎ ᗩ Y ᗩ ✦ : process.env.OWNER_NAME,
-  sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
-  author:  process.env.PACK_AUTHER.split(";")[0] === undefined ? 'Naveed-Dogar' : process.env.PACK_AUTHER.split(";")[0],
+  botname:   process.env.BOT_NAME === undefined ? '✦Ｋ Ｉ Ｎ Ｇ ᧒ ꫀ ꫀ ꪹ ꪗ✦ : process.env.BOT_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? '✦Ｋ Ｉ Ｎ Ｇ ᧒ ꫀ ꫀ ꪹ ꪗ✦ : process.env.OWNER_NAME,
+  sessionName:  process.env.SESSION_ID === undefined ? true : process.env.SESSION_ID,
+  author:  process.env.PACK_AUTHER.split(";")[0] === undefined ? '✦Ｋ Ｉ Ｎ Ｇ ᧒ ꫀ ꫀ ꪹ ꪗ✦ : process.env.PACK_AUTHER.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS  || 'true' ,
-  packname:  process.env.PACK_NAME.split(";")[1] === undefined ? '✦𝘘 ꪊ ꫀ ꫀ ᭢ -ᗩ ᑎ ᗩ Y ᗩ ✦ : process.env.PACK_NAME.split(";")[1],
+  packname:  process.env.PACK_NAME.split(";")[1] === undefined ? '✦Ｋ Ｉ Ｎ Ｇ ᧒ ꫀ ꫀ ꪹ ꪗ✦ : process.env.PACK_NAME.split(";")[1],
   autoreaction:  process.env.AUTO_REACTION ||  'true' ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nigga' : process.env.ANTI_BAD_WORD,
   alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? false : process.env.ALWAYS_ONLINE,
   antifake : process.env.FAKE_COUNTRY_CODE === undefined ? '212' : process.env.FAKE_COUNTRY_CODE,
   readmessage:  process.env.READ_MESSAGE === undefined ? false : process.env.READ_MESSAGE,
-  auto_status_saver: process.env.AUTO_STATUS_SAVER === undefined ? false : process.env.AUTO_STATUS_SAVER,
+  auto_status_saver: process.env.AUTO_STATUS_SAVER === undefined ? true  : process.env.AUTO_STATUS_SAVER,
   HANDLERS:  process.env.PREFIX === undefined ? '.' : process.env.PREFIX,
   warncount : process.env.WARN_COUNT === undefined ? 3 : process.env.WARN_COUNT,
   disablepm:  process.env.DISABLE_PM === undefined ? false : process.env.DISABLE_PM,
@@ -37,9 +37,9 @@ module.exports = {
   ALIVE_MESSAGE:  process.env.ALIVE_MESSAGE === undefined ? '' : process.env.ALIVE_MESSAGE,
   autobio:  process.env.AUTO_BIO === undefined ? false : process.env.AUTO_BIO,
   OPENAI_API_KEY:  process.env.OPENAI_API_KEY === undefined ? false : process.env.OPENAI_API_KEY,
-  heroku:  process.env.heroku === undefined ? false : process.env.heroku,
+  heroku:  process.env.heroku === undefined ? true  : process.env.heroku,
   HEROKU: {
-    HEROKU: process.env.HEROKU ||false,
+    HEROKU: process.env.HEROKU ||true ,
     API_KEY: process.env.HEROKU_API_KEY === undefined ? '' : process.env.HEROKU_API_KEY,
     APP_NAME: process.env.HEROKU_APP_NAME === undefined ? '' : process.env.HEROKU_APP_NAME
 },
